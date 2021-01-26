@@ -6,7 +6,7 @@ namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Factories.Decorated
     {
         private readonly IUserFactory _userFactory;
 
-        public AdminUserFactory(UserFactory userFactory)
+        public AdminUserFactory(IUserFactory userFactory)
         {
             _userFactory = userFactory;
         }

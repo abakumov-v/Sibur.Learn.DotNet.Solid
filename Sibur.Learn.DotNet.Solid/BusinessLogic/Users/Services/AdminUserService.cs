@@ -11,7 +11,7 @@ namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Services
         private readonly IDbFactory _dbFactory;
         private readonly IUserFactory _userFactory;
 
-        public AdminUserService(DbFactory dbFactory, UserFactory userFactory)
+        public AdminUserService(IDbFactory dbFactory, IUserFactory userFactory)
         {
             _dbFactory = dbFactory;
             _userFactory = userFactory;
