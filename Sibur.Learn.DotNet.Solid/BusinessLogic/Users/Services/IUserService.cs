@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Sibur.Learn.DotNet.Solid.Models;
 
-namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users
+namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Services
 {
     /// <summary>
     /// TODO: 01. Какая ответственность этого класса?
