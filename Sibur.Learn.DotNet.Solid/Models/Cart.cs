@@ -2,8 +2,8 @@
 
 namespace Sibur.Learn.DotNet.Solid.Models
 {
-    public class User : BaseEntity
+    public class Cart : BaseEntity
     {
-        public string FullName { get; set; }
+        
     }
 }
