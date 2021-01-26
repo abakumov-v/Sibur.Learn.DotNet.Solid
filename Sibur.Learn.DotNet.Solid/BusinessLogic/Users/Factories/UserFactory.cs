@@ -8,7 +8,8 @@ namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Factories
         {
             return new User()
             {
-                FullName = fullName
+                FullName = fullName,
+                IsAdmin = false
             };
         }
     }
