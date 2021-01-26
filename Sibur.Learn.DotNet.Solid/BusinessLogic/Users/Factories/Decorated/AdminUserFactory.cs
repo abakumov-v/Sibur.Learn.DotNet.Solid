@@ -6,9 +6,9 @@ namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Factories.Decorated
     {
         private readonly IUserFactory _userFactory;
 
-        public AdminUserFactory()
+        public AdminUserFactory(UserFactory userFactory)
         {
-            _userFactory = new UserFactory();
+            _userFactory = userFactory;
         }
 
         public User Create(string fullName)

@@ -11,10 +11,10 @@ namespace Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Services
         private readonly IDbFactory _dbFactory;
         private readonly IUserFactory _userFactory;
 
-        public AdminUserService()
+        public AdminUserService(DbFactory dbFactory, UserFactory userFactory)
         {
-            _dbFactory = new DbFactory();
-            _userFactory = new UserFactory();
+            _dbFactory = dbFactory;
+            _userFactory = userFactory;
         }
 
         public async Task<User> GetUserAsync(int id)
