@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Sibur.Learn.DotNet.Solid
+namespace Sibur.Learn.DotNet.Solid.Ioc
 {
     /// <summary>
     /// Like a IServiceProvider in .NET Core

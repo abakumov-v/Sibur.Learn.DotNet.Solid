@@ -1,6 +1,7 @@
 ﻿using System;
 using Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Factories;
 using Sibur.Learn.DotNet.Solid.BusinessLogic.Users.Services;
+using Sibur.Learn.DotNet.Solid.Ioc;
 
 namespace Sibur.Learn.DotNet.Solid
 {
